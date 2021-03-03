@@ -1,0 +1,53 @@
+/*
+Theme: practice project 1
+Author: Du Web Team
+Version: 1.0.0
+
+
+------ Table of Content -------
+1. banner section
+2. pricing section
+3. plan part
+4. features part
+5. loving section
+6. team section
+7. blog section 
+*/
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar{
+	background: #e1e1e1;
+    overflow: hidden;
+}
+.navbar .main_menu li{
+
+}
+.navbar .main_menu li a{
+    text-decoration: none;
+    padding: 38px 20px;
+    color: #000;
+    font-weight: 400; 
+    font-family: sans-serif;
+    transition: all .3s;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.navbar .main_menu li a:hover,
+.navbar .main_menu li a.yasinvai{
+    background: #b7b7a4; 
+}
+.autoType{
+    font-size: 40px;
+    color: #fff;
+    font-family: tahoma;
+}
+.text{
+    color: red;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
