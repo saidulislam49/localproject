@@ -11,11 +11,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet"> 
+
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    
+    <!-- slick slider css -->
+    <link rel="stylesheet" href="css/slick.css">
+
+    <!-- venobox css -->
+    <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
+
+    <!-- skill css -->
+    <link rel="stylesheet" href="css/an-skill-bar.css">
 
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
@@ -45,52 +57,148 @@
         </div>
       </nav>
      
-      <div class="row">
-          <div class="col-4"></div>
-          <div class="col-4 bg-success text-center">
-            <div class="text-center" id="myName">
-                <h4>My name is saidul islam</h4>
-                <h1>I am a web developer</h1>
-                <h1>And web designer</h1> 
-            </div>
-            <span class="autoType text-center" id="stor"></span>
+    <!-- slider section -->
+
+    <div class="slider_section">
+      <div class="slider">
+        <div class="single_slider">
+          <img src="images/1.jpg" alt="">
+        </div>
+        <div class="single_slider">
+          <img src="images/2.jpg" alt="">
+        </div>
+        <div class="single_slider">
+          <img src="images/3.jpg" alt="">
+        </div>
+      </div>
+      <!-- Slider text -->
+      <div class="slider_text">
+        <h1>We are DU Web Team</h1>
+        <div class="type_content">
+          <div id="typed_strings">
+            <p>We are Web Developer</p>
+            <p>We are Programmer</p>
+            <p>We are WordPresser</p>
           </div>
-          <div class="col-4"></div>
+          <span id="typed"></span>
+        </div>
+        <button>Contact Us</button>
+        <button>Hire Us</button>
       </div>
-     
-     
+    </div>
 
-      <div id="imranvai">
-         <h1>my borther name is imran vai</h1>
-         <h1>lsdjfasodfjaslkdfjaslkdfj  sld;fkjskldfj</h1>
-         <h1>fsadfsadfsadfs imran vai</h1>
-         <h1>my sdfsdafasdfsdafmran vai</h1>
+
+    <!-- about section -->
+    <div class="about_section">
+      <div class="container">
+        <div class="about_title text-center text-secondary">
+          <h2>About Us</h2>
+          <img src="images/undeline.png" alt="UnderLine">
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="about_text">
+              <div class="main_text text-center">
+                <h3>Lorem Ipsum is simply dummy text</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <p>Natasa Lara</p>
+                  <p>Designer company</p>
+                </div>
+                <div class="col-sm-6 text-sm-right text-center">
+                  <a href="">Download Our CV</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="video">
+              <img src="images/1.jpg" alt="image">
+              <div class="overlay">
+                <a class="venobox" data-vbtype="video" href="https://youtu.be/8ghE9qJbZBk">
+                <i class="far fa-play-circle"></i>
+                </a>
+              </div>
+            </div> 
+          </div> 
+        </div>
       </div>
-      <span id="vaiertype" class="text"></span>
+    </div>
 
+    <!-- about section end -->
+
+    <!-- skill section start -->
+    <div class="skill_section">
+      <div class="skill_content">
+        <div class="section-tietle text-center">
+          <h2>My skill</h2>
+          <img src="images/undeline.png" alt="underline">
+        </div>
+       <div class="container">
+        <div class="row">
+          <div class="col-md-6 bg-success">sfsdf</div>
+          <div class="col-md-6">
+            <div class="mySkill">
+
+              <div class="skillbar html">
+                <div class="filled" data-width="60%"></div>
+                <span class="title">HTML</span>
+                <span class="percent">90%</span>
+              </div>
+              <div class="skillbar css">
+                <div class="filled" data-width="60%"></div>
+                <span class="title">css3</span>
+                <span class="percent">90%</span>
+              </div>
+              <div class="skillbar js">
+                <div class="filled" data-width="40%"></div>
+                <span class="title">JS</span>
+                <span class="percent">90%</span>
+              </div>
+              <div class="skillbar php">
+                <div class="filled" data-width="80%"></div>
+                <span class="title">PHP</span>
+                <span class="percent">90%</span>
+              </div>
+              <div class="skillbar wordpress">
+                <div class="filled" data-width="50%"></div>
+                <span class="title">wordpress</span>
+                <span class="percent">90%</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+    <!-- skill section end -->
+     
+      
+     <!-- jquery link -->
+      <script src="js/jquery-3.6.0.min.js"></script>
 
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-     <!-- <script>
-         var something = new Typed('#stor',{
-             stringsElement : "#myName",
-             typeSpeed: 50,
-             loop: true,
-             cursorChar: '||'
-         })
+    <!-- venobox js -->
+    <script src="venobox/venobox.min.js"></script>
+  
+   <!-- slick slider js -->
+   <script src="js/slick.min.js"></script>
 
-         
-     </script> -->
-    <script>
-        var typed = new Typed('#vaiertype', {
-          stringsElement: '#imranvai',
-          typeSpeed: 50,
-          loop: true
-        });
-    </script>
+   <!-- Typed JS -->
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  <!-- skillbar js -->
+    <script src="js/an-skill-bar.js"></script>
+
+   <!-- custom js -->
+    <script src="js/script.js"></script>
+
 
 </body>
 </html>
