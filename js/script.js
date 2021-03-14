@@ -7,7 +7,7 @@
 //     });
 //   });
 
-
+//main slider
 $('.slider').slick({
   arrows: false,
   autoplay: true,
@@ -39,6 +39,16 @@ $('.slider').slick({
   ]
 });
 
+//client slider
+$('.client_slider').slick({
+  arrows: false,
+  autoplay: false,
+  // autoplaySpeed: 2000,
+  speed: 2000,
+  pauseOnHover: false,
+  slidesToShow: 1
+
+})
 
 // Typed Js
 var typed = new Typed('#typed', {

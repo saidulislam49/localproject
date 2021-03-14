@@ -18,6 +18,10 @@ Version: 1.0.0
 body{
     font-family: 'Oswald', sans-serif;
 }
+.section_title h2{
+    font-size: 45px;
+    color:#5a5959;
+}
 
 .navbar{
 	background: #e1e1e1;
@@ -177,4 +181,79 @@ body{
 .skill_section{
     padding: 100px 0;
     background: url('../images/skill_bg.jpg');
+}
+
+ 
+/* portfolio start*/
+.portfolio{
+    padding: 100px 0;
+}
+.portfolio [class^='work'] img{
+    width: 100%; 
+}
+.portfolio [class^='work']{
+    position: relative;   
+}
+.portfolio [class^='work']::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    transition: all .4s;
+    cursor: url('../images/icon-zoom-white.png'),pointer;
+}
+.portfolio [class^='work']:hover::after{
+    width: 50%;
+}
+.portfolio [class^='work']::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    transition: all .4s;
+    cursor: url('../images/icon-zoom-white.png'),pointer;
+}
+.portfolio [class^='work']:hover::before{
+    width: 50%;
+}
+.portfolio [class^='work'] a{
+    z-index: 999;
+    position: relative;
+}
+
+
+
+/* portfolio end*/
+
+/* client section  */
+.client_section .section_title{
+    margin-bottom: 40px;
+}
+.client_section .client_image{
+    height : 400px;
+    overflow: hidden;
+}
+.client_section .client_image .col-4 , .col-8{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.client_section .client_image img{
+    width: 100%;
+}
+.client_section .client_text{
+    background-color: #ddd6d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 80px 10px;
+    box-sizing: border-box;
+    margin-right: 0;
 }
