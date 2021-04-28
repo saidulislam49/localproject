@@ -41,12 +41,14 @@ $('.slider').slick({
 
 //client slider
 $('.client_slider').slick({
-  arrows: false,
+  arrows: true,
   autoplay: false,
   // autoplaySpeed: 2000,
   speed: 2000,
   pauseOnHover: false,
-  slidesToShow: 1
+  slidesToShow: 1,
+  prevArrow : '.left_angle',
+  nextArrow : '.right_angle',
 
 })
 
